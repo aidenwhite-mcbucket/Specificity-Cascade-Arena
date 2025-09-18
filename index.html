@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title Specificity & Inheritance Exercise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="main" class="headline title">Welcome to the Arena</h1>
+
+<section class="wrap">
+  <h2 class="headline">Section Headline</h2>
+  <p class="text lead">This paragraph introduces the section.</p>
+
+  <article id="card" class="panel featured">
+    <h3 class="headline">Featured Card</h3>
+    <p class="text">Card body text with an <a href="https://example.com" class="cta">example link</a>.</p>
+    <p class="text note">Card note with a <a href="https://example.com" target="_blank">new tab link</a>.</p>
+  </article>
+
+  <article class="panel">
+    <h3>Another Card</h3>
+    <p>Plain card paragraph.</p>
+  </article>
+</section>
+
+<footer class="site-footer">
+  <p class="text">Footer content here.</p>
+</footer>
+</body>

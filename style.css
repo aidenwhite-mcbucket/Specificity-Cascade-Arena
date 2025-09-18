@@ -1,0 +1,57 @@
+html { font-size: 16px; }
+body { font-family: system-ui, Arial, sans-serif; color: #222; line-height: 1.6; }
+<label>I would say the font size since that is the top one that is seen first</label>
+.wrap {
+    color: #333;
+    font-size: 18px;
+}
+<label>I think the color it will have maybe orange since the color is highlited in an orange kind of color</label>
+h1 { color: red; }
+
+
+.headline { color: green; }
+
+
+#main { color: blue; }
+
+
+h1.title { color: purple; }
+
+
+:root h1#main.title.headline { color: orange; } <!-- combo selector -->
+
+
+.wrap h1 { color: brown; } <!-- will this apply? why or why not? (comment) --> no since it needs to be split apart more.
+<!-- Which one actually won and why (comment) --> it was Orange and green since they since both dont have issues.
+.text.note {
+    color: teal;
+}
+.note.text {
+    color: crimson;
+}
+<!-- They select the same elements and have equal specificity. Which color shows and why?(comment) --> Crimsion is the color that won since there is no errors in the coding.
+.panel.text.note {
+    color: 0a4a7a;
+}
+(comment)--> No because it did not show up on the website as well just like .textnote it has a problem just diffrent the color does not show up while .textnote color shows up its the red errors in it for why it wont work.
+.wrap {
+    color: 007bff;
+}
+#card .cta {
+  color: #0055cc;
+}
+(comment)--> since both are very diffrent tags and putting together would not work.
+.site-footer {
+    color: 666;
+    font-size: 14px;
+}
+.text {
+    color: 4a4a4a;
+}
+(comment)--> because both inherit from eachother.
+#card .text:first-of-type {
+  background-color: lightblue;
+}
+a[target=""https://example.com""] { /* green */ }
+color blue !important;
+(comment)--> because using Important when coding you wont learn you will just use that for everything which means you are not trying to learn how to code what you should do is try coding the correct way before using that the only reason you ever use that code is if that is the only way for that coding you want in there to work or no example or no way to put that code in correctly.
